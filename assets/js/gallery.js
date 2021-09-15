@@ -6,7 +6,7 @@ const personalMovieDB = {
     actors: {},
     genres: [],
     privat: false,
-}
+};
 
 const answer = prompt('Один из просмотренных Фильмов', ''),
     answer2 = prompt('на сколько цените его?', ''),
@@ -17,6 +17,6 @@ const answer = prompt('Один из просмотренных Фильмов',
 personalMovieDB.movies = {
     answer: answer2,
     answerA: answerA2,
-}
+};
 
 console.log(personalMovieDB);
